@@ -89,6 +89,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECAS.Shared.DbMigrator", "s
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECAS.Shared.Consts", "shared\ECAS.Shared.Consts\ECAS.Shared.Consts.csproj", "{1D488E87-4146-44E3-9ADC-875100B0AB2E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{04BB7C8A-949D-4619-92ED-F9E8BC593C3A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		initialize_solution.ps1 = initialize_solution.ps1
+		LICENSE = LICENSE
+		tye.yaml = tye.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
