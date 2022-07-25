@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "ECAS.IdentityService": {
+      "path": "ECAS.IdentityService.abpmdl.json"
+    }
+  }
+}

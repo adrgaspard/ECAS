@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "ECAS.AdministrationService": {
+      "path": "ECAS.AdministrationService.abpmdl.json"
+    }
+  }
+}

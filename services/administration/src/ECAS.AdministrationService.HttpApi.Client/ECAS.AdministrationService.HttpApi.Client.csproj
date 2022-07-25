@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>ECAS.AdministrationService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.FeatureManagement.HttpApi.Client" Version="5.3.3" />
+    <PackageReference Include="Volo.Abp.Http.Client" Version="5.3.3" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi.Client" Version="5.3.3" />
+    <PackageReference Include="Volo.Abp.SettingManagement.HttpApi.Client" Version="5.3.3" />
+    <ProjectReference Include="..\ECAS.AdministrationService.Application.Contracts\ECAS.AdministrationService.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="**\*generate-proxy.json" />
+    <Content Remove="**\*generate-proxy.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Fody" Version="6.6.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

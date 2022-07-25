@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "ECAS.AdministrationService.Domain.Shared": {
+      "path": "src/ECAS.AdministrationService.Domain.Shared/ECAS.AdministrationService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "ECAS.AdministrationService.Domain": {
+      "path": "src/ECAS.AdministrationService.Domain/ECAS.AdministrationService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "ECAS.AdministrationService.Application.Contracts": {
+      "path": "src/ECAS.AdministrationService.Application.Contracts/ECAS.AdministrationService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "ECAS.AdministrationService.Application": {
+      "path": "src/ECAS.AdministrationService.Application/ECAS.AdministrationService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "ECAS.AdministrationService.EntityFrameworkCore": {
+      "path": "src/ECAS.AdministrationService.EntityFrameworkCore/ECAS.AdministrationService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "ECAS.AdministrationService.MongoDB": {
+      "path": "src/ECAS.AdministrationService.MongoDB/ECAS.AdministrationService.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "ECAS.AdministrationService.HttpApi": {
+      "path": "src/ECAS.AdministrationService.HttpApi/ECAS.AdministrationService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "ECAS.AdministrationService.HttpApi.Client": {
+      "path": "src/ECAS.AdministrationService.HttpApi.Client/ECAS.AdministrationService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "ECAS.AdministrationService.TestBase": {
+      "path": "test/ECAS.AdministrationService.TestBase/ECAS.AdministrationService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "ECAS.AdministrationService.EntityFrameworkCore.Tests": {
+      "path": "test/ECAS.AdministrationService.EntityFrameworkCore.Tests/ECAS.AdministrationService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ECAS.AdministrationService.MongoDB.Tests": {
+      "path": "test/ECAS.AdministrationService.MongoDB.Tests/ECAS.AdministrationService.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ECAS.AdministrationService.Domain.Tests": {
+      "path": "test/ECAS.AdministrationService.Domain.Tests/ECAS.AdministrationService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ECAS.AdministrationService.Application.Tests": {
+      "path": "test/ECAS.AdministrationService.Application.Tests/ECAS.AdministrationService.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ECAS.AdministrationService.HttpApi.Host": {
+      "path": "host/ECAS.AdministrationService.HttpApi.Host/ECAS.AdministrationService.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ECAS.AdministrationService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ECAS.AdministrationService.HttpApi.Client.ConsoleTestApp/ECAS.AdministrationService.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "ECAS.AdministrationService.IdentityServer": {
+      "path": "host/ECAS.AdministrationService.IdentityServer/ECAS.AdministrationService.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "ECAS.AdministrationService.Host.Shared": {
+      "path": "host/ECAS.AdministrationService.Host.Shared/ECAS.AdministrationService.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

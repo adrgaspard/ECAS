@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "ECAS.IdentityService.Domain.Shared": {
+      "path": "src/ECAS.IdentityService.Domain.Shared/ECAS.IdentityService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "ECAS.IdentityService.Domain": {
+      "path": "src/ECAS.IdentityService.Domain/ECAS.IdentityService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "ECAS.IdentityService.Application.Contracts": {
+      "path": "src/ECAS.IdentityService.Application.Contracts/ECAS.IdentityService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "ECAS.IdentityService.Application": {
+      "path": "src/ECAS.IdentityService.Application/ECAS.IdentityService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "ECAS.IdentityService.EntityFrameworkCore": {
+      "path": "src/ECAS.IdentityService.EntityFrameworkCore/ECAS.IdentityService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "ECAS.IdentityService.MongoDB": {
+      "path": "src/ECAS.IdentityService.MongoDB/ECAS.IdentityService.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "ECAS.IdentityService.HttpApi": {
+      "path": "src/ECAS.IdentityService.HttpApi/ECAS.IdentityService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "ECAS.IdentityService.HttpApi.Client": {
+      "path": "src/ECAS.IdentityService.HttpApi.Client/ECAS.IdentityService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "ECAS.IdentityService.TestBase": {
+      "path": "test/ECAS.IdentityService.TestBase/ECAS.IdentityService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "ECAS.IdentityService.EntityFrameworkCore.Tests": {
+      "path": "test/ECAS.IdentityService.EntityFrameworkCore.Tests/ECAS.IdentityService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ECAS.IdentityService.MongoDB.Tests": {
+      "path": "test/ECAS.IdentityService.MongoDB.Tests/ECAS.IdentityService.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ECAS.IdentityService.Domain.Tests": {
+      "path": "test/ECAS.IdentityService.Domain.Tests/ECAS.IdentityService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ECAS.IdentityService.Application.Tests": {
+      "path": "test/ECAS.IdentityService.Application.Tests/ECAS.IdentityService.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ECAS.IdentityService.HttpApi.Host": {
+      "path": "host/ECAS.IdentityService.HttpApi.Host/ECAS.IdentityService.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ECAS.IdentityService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ECAS.IdentityService.HttpApi.Client.ConsoleTestApp/ECAS.IdentityService.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "ECAS.IdentityService.IdentityServer": {
+      "path": "host/ECAS.IdentityService.IdentityServer/ECAS.IdentityService.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "ECAS.IdentityService.Host.Shared": {
+      "path": "host/ECAS.IdentityService.Host.Shared/ECAS.IdentityService.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}
