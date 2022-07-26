@@ -1,0 +1,24 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the Gateway Docker image
+      run: docker build . --file gateway/ECAS.Gateway/Dockerfile --tag gateway:dev
+    - name: Build the IdentityServer Docker image
+      run: docker build . --file apps/ECAS.IdentityServer/Dockerfile --tag identityserver:dev
+    - name: Build the AdministrationService Docker image
+      run: docker build . --file services/administration/host/ECAS.AdministrationService.HttpApi.Host/Dockerfile --tag administrationservice:dev
+    - name: Build the IdentityService Docker image
+      run: docker build . --file services/identity/host/ECAS.IdentityService.HttpApi.Host/Dockerfile --tag identityservice:dev
