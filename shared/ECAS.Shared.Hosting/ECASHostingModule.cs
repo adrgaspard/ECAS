@@ -1,8 +1,10 @@
 ﻿using Volo.Abp.AspNetCore.Serilog;
 using Volo.Abp.Autofac;
+using Volo.Abp.Caching.StackExchangeRedis;
 using Volo.Abp.Data;
 using Volo.Abp.EntityFrameworkCore;
 using Volo.Abp.EntityFrameworkCore.PostgreSql;
+using Volo.Abp.EventBus.RabbitMq;
 using Volo.Abp.Localization;
 using Volo.Abp.Modularity;
 using Volo.Abp.Swashbuckle;
@@ -12,10 +14,10 @@ namespace ECAS.Shared.Hosting;
 [DependsOn(
         typeof(AbpAutofacModule),
         typeof(AbpDataModule),
-        //typeof(AbpCachingStackExchangeRedisModule),
+        typeof(AbpCachingStackExchangeRedisModule),
         typeof(AbpAspNetCoreSerilogModule),
         typeof(AbpSwashbuckleModule),
-        //typeof(AbpEventBusRabbitMqModule),
+        typeof(AbpEventBusRabbitMqModule),
         typeof(AbpEntityFrameworkCoreModule),
         typeof(AbpEntityFrameworkCorePostgreSqlModule)
     )]

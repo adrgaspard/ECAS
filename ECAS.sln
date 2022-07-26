@@ -97,6 +97,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECAS.IdentityServer", "apps\ECAS.IdentityServer\ECAS.IdentityServer.csproj", "{23CD8EF2-25CA-4B70-AFFF-0F9B8780A508}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ECAS.Web", "apps\ECAS.Web\ECAS.Web.esproj", "{226EDB4D-EFE1-41B6-8AC6-9E1D22C9229E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -227,6 +229,10 @@ Global
 		{23CD8EF2-25CA-4B70-AFFF-0F9B8780A508}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23CD8EF2-25CA-4B70-AFFF-0F9B8780A508}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23CD8EF2-25CA-4B70-AFFF-0F9B8780A508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226EDB4D-EFE1-41B6-8AC6-9E1D22C9229E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{226EDB4D-EFE1-41B6-8AC6-9E1D22C9229E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{226EDB4D-EFE1-41B6-8AC6-9E1D22C9229E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{226EDB4D-EFE1-41B6-8AC6-9E1D22C9229E}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -271,6 +277,7 @@ Global
 		{A436B268-87AC-4E7C-BC83-4601C6C82410} = {FC95548E-3F9E-46D4-A4DB-FA199A25C113}
 		{1D488E87-4146-44E3-9ADC-875100B0AB2E} = {FC95548E-3F9E-46D4-A4DB-FA199A25C113}
 		{23CD8EF2-25CA-4B70-AFFF-0F9B8780A508} = {198F21F0-29AA-4ECB-AAA5-B464FD36FCC3}
+		{226EDB4D-EFE1-41B6-8AC6-9E1D22C9229E} = {198F21F0-29AA-4ECB-AAA5-B464FD36FCC3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {068B27A5-3AD4-4345-95B4-E8083286B98C}
