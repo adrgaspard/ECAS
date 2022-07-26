@@ -4,10 +4,10 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        var builder = WebApplication.CreateBuilder(args);
-        builder.Services.AddReverseProxy().LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"));
-        var app = builder.Build();
-        app.MapReverseProxy();
+        WebApplicationBuilder? builder = WebApplication.CreateBuilder(args);
+        _ = builder.Services.AddReverseProxy().LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"));
+        WebApplication? app = builder.Build();
+        _ = app.MapReverseProxy();
         app.Run();
     }
 }

@@ -1,25 +1,24 @@
-﻿{
+{
   "iisSettings": {
-    "windowsAuthentication": false,
+    "windowsAuthentication": false, 
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:7000",
+      "applicationUrl": "https://localhost:7000",
       "sslPort": 7000
     }
   },
   "profiles": {
-    "ECAS.IdentityServer": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
+    "IIS Express": {
+      "commandName": "IISExpress",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "IIS Express": {
-      "commandName": "IISExpress",
+    "ECAS.IdentityServer": {
+      "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "https://localhost:7000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
